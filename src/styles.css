@@ -1,0 +1,152 @@
+/* Default Styles */
+
+* {
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    outline: none;
+    text-shadow: none;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Bold.eot') format('eot'), url('fonts/OpenSans-Bold.woff') format('woff'), url('fonts/OpenSans-Bold.ttf') format('truetype'), url('fonts/OpenSans-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('fonts/OpenSans-Regular.eot') format('eot'), url('fonts/OpenSans-Regular.woff') format('woff'), url('fonts/OpenSans-Regular.ttf') format('truetype'), url('fonts/OpenSans-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda-Regular';
+    src: url('fonts/Merienda-Regular.eot') format('eot'), url('fonts/Merienda-Regular.woff') format('woff'), url('fonts/Merienda-Regular.ttf') format('truetype'), url('fonts/Merienda-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda-Bold';
+    src: url('fonts/Merienda-Bold.eot') format('eot'), url('fonts/Merienda-Bold.woff') format('woff'), url('fonts/Merienda-Bold.ttf') format('truetype'), url('fonts/Merienda-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Merienda-Regular';
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    background: #ffffff;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.containerFluid {
+    width: 100%;
+    float: left;
+}
+
+a {
+    color: #ec1d24;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #ff9800;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.noBorder {
+    border: 0px !important;
+}
+
+.noMargin {
+    margin: 0px !important;
+}
+
+.numCol {
+    width: 50px;
+}
+
+.defaultPadding {
+    padding: 0px 15px;
+}
+
+.marginTB {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.margingLR {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.marginR {
+    margin-right: 15px;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.hyperlink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.none {
+    display: none !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.pointerAuto {
+    pointer-events: auto !important;
+}

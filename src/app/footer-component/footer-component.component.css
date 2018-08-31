@@ -1,0 +1,15 @@
+.copyright {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    background: #000000;
+}
+
+.copyright a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 0px 4px;
+    font-weight: bold;
+}
